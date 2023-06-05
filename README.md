@@ -26,3 +26,18 @@ Now it's time to predict the price for specific input values, You need to run Pr
 
 ### python Predict_price.py -a predict_dataset_name   
 (This will import predict_dataset_name file and perform operation automatically and will display the price
+
+
+
+
+## Example:
+
+Run Following Command Using Command Prompt
+
+Go Inside this repo after pulling or downloading this repo
+
+Open Terminal in current folder (repo) and type following commands:
+
+- ``` python Cleaning_Dataset.py org_dataset Train ```
+- ``` python Train_Model.py Train_dataset ```
+- ``` python Predict_Price.py -a pre_dataset ```
